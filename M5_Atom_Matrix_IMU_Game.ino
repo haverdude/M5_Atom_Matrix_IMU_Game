@@ -21,9 +21,9 @@ int gamepos = random (0,25);
 unsigned long lastTime;
 unsigned long turnTime;
 
-unsigned long minTurnTime = 300;
-unsigned long maxTurnTime = 1500;
-unsigned long decTurnTime = 100;
+unsigned long minTurnTime = 150;
+unsigned long maxTurnTime = 1000;
+unsigned long decTurnTime = 200;
 uint8_t FSM = 0;
 
 // set up the sketch
